@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dynamic Elements</title>
+    <style>
+      .mainDiv {
+        align-items: center;
+        width: 220px;
+        height: 220px;
+      }
+      .ulListClass {
+        background-color: yellowgreen;
+      }
+      .listClass {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .courseName {
+        font-weight: bold;
+        text-align: left;
+      }
+      .coursePrice {
+        font-style: italic;
+        float: right;
+      }
+      .btnClass {
+        background-color: maroon;
+      }
+      .btnClass1 {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Available Courses</h1>
+    <div class="mainDiv">
+      <ul class="ulListClass">
+        <li class="listClass">
+          <span class="courseName">Java Script</span>
+          <span class="coursePrice">4.1</span>
+        </li>
+      </ul>
+    </div>
+    <button class="btnClass">SORT(LOW to HIGH)</button>
+    <button class="btnClass1">SORT(HIGH to LOW)</button>
+    <script src="addDynamicElement.js"></script>
+  </body>
+</html>
